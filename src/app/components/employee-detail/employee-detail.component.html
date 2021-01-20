@@ -1,0 +1,11 @@
+<div class="main-div">
+    <mat-card>
+        <h1>Employee Details</h1>
+        <p >ID : {{emp_detail.id}}</p>
+        <p appHighlight>Name : {{emp_detail.employee_name}}</p>
+        <p>Age : {{emp_detail.employee_age | agepipe}}</p>
+        <p>Salary : {{emp_detail.employee_salary | currency:'USD'}} </p>
+    </mat-card> 
+</div>
+
+
