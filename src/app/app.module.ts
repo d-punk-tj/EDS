@@ -16,6 +16,10 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule} from '@angular/material/input';
 import { MatTableModule} from '@angular/material/table'
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatButtonModule} from '@angular/material/button';
+
+
 
 
 
@@ -59,6 +63,8 @@ import { HighlightDirective } from './helpers/highlight.directive';
     ReactiveFormsModule,
     MatInputModule,
     MatTableModule,
+    MatSnackBarModule,
+    MatButtonModule
     
     
   ],

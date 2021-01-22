@@ -9,7 +9,14 @@
     width: 17rem;
 }
 
-h1{
+
+h1 {
     text-align: center;
-}
+    width: 100%;
+    background: #03A9F4;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.05);
+    border-radius: 3px 3px 0 0;
+  }
 
